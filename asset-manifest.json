@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tomnium-task/static/css/main.7e8a3879.chunk.css",
-    "main.js": "/tomnium-task/static/js/main.a38d6586.chunk.js",
-    "main.js.map": "/tomnium-task/static/js/main.a38d6586.chunk.js.map",
-    "runtime-main.js": "/tomnium-task/static/js/runtime-main.cb26a197.js",
-    "runtime-main.js.map": "/tomnium-task/static/js/runtime-main.cb26a197.js.map",
-    "static/js/2.bcda4be8.chunk.js": "/tomnium-task/static/js/2.bcda4be8.chunk.js",
-    "static/js/2.bcda4be8.chunk.js.map": "/tomnium-task/static/js/2.bcda4be8.chunk.js.map",
-    "static/js/3.b8a74152.chunk.js": "/tomnium-task/static/js/3.b8a74152.chunk.js",
-    "static/js/3.b8a74152.chunk.js.map": "/tomnium-task/static/js/3.b8a74152.chunk.js.map",
-    "index.html": "/tomnium-task/index.html",
-    "static/css/main.7e8a3879.chunk.css.map": "/tomnium-task/static/css/main.7e8a3879.chunk.css.map",
-    "static/js/2.bcda4be8.chunk.js.LICENSE.txt": "/tomnium-task/static/js/2.bcda4be8.chunk.js.LICENSE.txt"
+    "main.css": "/Tomnium-Test-Task/static/css/main.7e8a3879.chunk.css",
+    "main.js": "/Tomnium-Test-Task/static/js/main.a38d6586.chunk.js",
+    "main.js.map": "/Tomnium-Test-Task/static/js/main.a38d6586.chunk.js.map",
+    "runtime-main.js": "/Tomnium-Test-Task/static/js/runtime-main.4da6b031.js",
+    "runtime-main.js.map": "/Tomnium-Test-Task/static/js/runtime-main.4da6b031.js.map",
+    "static/js/2.bcda4be8.chunk.js": "/Tomnium-Test-Task/static/js/2.bcda4be8.chunk.js",
+    "static/js/2.bcda4be8.chunk.js.map": "/Tomnium-Test-Task/static/js/2.bcda4be8.chunk.js.map",
+    "static/js/3.b8a74152.chunk.js": "/Tomnium-Test-Task/static/js/3.b8a74152.chunk.js",
+    "static/js/3.b8a74152.chunk.js.map": "/Tomnium-Test-Task/static/js/3.b8a74152.chunk.js.map",
+    "index.html": "/Tomnium-Test-Task/index.html",
+    "static/css/main.7e8a3879.chunk.css.map": "/Tomnium-Test-Task/static/css/main.7e8a3879.chunk.css.map",
+    "static/js/2.bcda4be8.chunk.js.LICENSE.txt": "/Tomnium-Test-Task/static/js/2.bcda4be8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb26a197.js",
+    "static/js/runtime-main.4da6b031.js",
     "static/js/2.bcda4be8.chunk.js",
     "static/css/main.7e8a3879.chunk.css",
     "static/js/main.a38d6586.chunk.js"
