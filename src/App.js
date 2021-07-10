@@ -7,34 +7,21 @@ function App() {
   const [data, setData] = React.useState({});
   const [isLoaded, setLoading] = React.useState(true);
 
-  React.useEffect(() => {
+  const getData = async () => {
     setLoading(true)
-    const getData = async () => {
-      const promise1 = new Promise((resolve, reject) => {
-        fetch('data.json')
-          .then(res => res.json())
-          .then(res => resolve(res))
-          .catch(err => reject(err));
-      });
+    const promise1 = new Promise((resolve, reject) => {
+      fetch('data.json')
+        .then(res => res.json())
+        .then(res => resolve(res))
+        .catch(err => reject(err));
+    });
 
-      promise1.then(res => { setData(res); return setLoading(false) }).catch(err => console.log(err));
-    };
+    promise1.then(res => { setData(res); return setLoading(false) }).catch(err => console.log(err));
+  };
+
+  React.useEffect(() => {
     setTimeout(getData, 2000);
-
-    // const fetchData = async () => {
-    //   const result = await fetch('data.json')
-    //     .then(res => res.json())
-    //     .catch(err => console.log(err));
-    //   setData(result);
-    //   setLoading(false);
-    // }
-    // setTimeout(() => {
-    //   fetchData();
-    // }, 2000);
-
   }, []);
-
-
 
   return (
     <div className="container">
